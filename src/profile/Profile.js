@@ -1,17 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// function Profile({ fullName, bio, profession, children, handleName }) {
-//   return (
-//     <div>
-//       <h1>{fullName}</h1>
-//       <p>{bio}</p>
-//       <p>{profession}</p>
-//       {children}
-//       <button onClick={() => handleName(fullName)}>Show Name</button>
-//     </div>
-//   );
-// }
+
 
 function Profile(props) {
   const {fullName, bio, profession, children, handleName } = props;
@@ -23,7 +13,7 @@ function Profile(props) {
       {children}
       <button onClick={() => handleName(fullName)}>Show Name</button>
     </div>
-  );
+  )
 }
 
 
